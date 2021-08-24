@@ -1,0 +1,31 @@
+.sobre {
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 2px solid #2c70ff;
+    border-bottom: 2px solid #2c70ff;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+.sobre-info {
+    flex: 2 1 300px; /* Sobre-info ocupa duas vezes mais que os outros itens.  Flex-basis de 300px p/ o item quebrar a linha após chegar nesse valor mínimo*/ 
+    margin: 0 10px;
+}
+
+.sobre-info h1 {
+    font-size: 3rem;
+    margin-bottom: .5rem;
+}
+
+.sobre-info p {
+    font-size: 1.25rem;
+    line-height: 1.4;
+    margin-bottom: 1rem;
+    color: #7c7c7c;
+}
+
+.sobre-img {
+    flex: 1 1 160px; /* Ocupa apenas uma vez o seu espaço. Flex-basis de 160px para manter essa base para quebrar a linha e não diminuir muito a imagem. */
+    margin: 0 10px;
+}
